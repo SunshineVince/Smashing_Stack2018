@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+
+void sicario()
+        {
+                char array[30]; //Make array size 30
+
+                gets(array);  //Fill array with user input
+
+                printf("%s\n",array); //Display the array
+        }
+
+int main (void)
+        {
+
+                        sicario(); //Call sicario
+
+                        printf("RET points here \n");
+
+        return 0;
+        }
+
+
